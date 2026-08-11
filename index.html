@@ -58,7 +58,7 @@
                 <i class="fa-solid fa-user-lock fa-2x"></i>
             </div>
             <h4 class="fw-bold text-dark mb-1">Giriş Yap</h4>
-            <p class="text-muted small mb-4">SÜREÇ VE STOK Takip Sistemine Hoş Geldiniz</p>
+            <p class="text-muted small mb-4">Süreç Takip Sistemine Hoş Geldiniz</p>
         </div>
 
         <!-- Hata Mesajı Alanı -->
@@ -111,8 +111,8 @@
                 // Giriş yapan kullanıcının adını oturuma kaydediyoruz
                 localStorage.setItem('aktifKullanici', user);
                 
-                // Ana seçim sayfasına yönlendirme yapılıyor
-                window.location.href = "index.html"; 
+                // Belirtilen web adresine yönlendirme
+                window.location.href = "https://greensstok.online/anamenu"; 
             } else {
                 errorAlert.classList.remove('d-none');
             }
